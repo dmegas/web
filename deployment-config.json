@@ -5,6 +5,6 @@
     "port": 22,
     "remotePath": "/var/www/vhosts/dimitramegas.com/htdocs/",
     "sshKeyFile": "~/.ssh/id_rsa",
-    "passphrase": "your_passphrase",
+    "passphrase": "",
     "uploadOnSave": false
 }
