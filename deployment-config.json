@@ -1,0 +1,10 @@
+{
+    "type": "sftp",
+    "host": "184.168.146.200",
+    "username": "root",
+    "port": 22,
+    "remotePath": "/var/www/vhosts/dimitramegas.com/htdocs/",
+    "sshKeyFile": "~/.ssh/id_rsa",
+    "passphrase": "your_passphrase",
+    "uploadOnSave": false
+}
