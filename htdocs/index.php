@@ -31,12 +31,12 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Dimitra Megas</h1>
+        <h1 class="header center blue-text text-lighten-2">Dimitra Megas</h1>
         <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light blue lighten-1">Get Started</a>
         </div>
         <br><br>
 
@@ -120,7 +120,7 @@
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer darken">
+  <footer class="page-footer blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
