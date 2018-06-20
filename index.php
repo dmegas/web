@@ -1,4 +1,0 @@
-<?php ?>
-Dimitra
-Megas
-<br />
