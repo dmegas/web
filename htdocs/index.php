@@ -151,7 +151,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      From Berlin with love
       </div>
     </div>
   </footer>
