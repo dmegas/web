@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #2196F3;
+  color: #000;
 }
 
 .parallax-container {
@@ -43,6 +43,11 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  #logo-container {
+    width: 120%;
+    left: 80%;
   }
 }
 
