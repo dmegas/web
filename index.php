@@ -1,4 +1,3 @@
 <?php ?>
-Dimitra
-Megas
+Dimitra Megas
 <br />
