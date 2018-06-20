@@ -15,12 +15,14 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Dimitra Megas</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Oil</a></li>
+        <li><a href="#">Paintings</a></li>
+        <li><a href="#">Drawings</a></li>
         <li><a href="#">Architecture</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Oil</a></li>
+        <li><a href="#">Paintings</a></li>
+        <li><a href="#">Drawings</a></li>
         <li><a href="#">Architecture</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -42,7 +44,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="assets/banner.jpg" alt="Dimitra Megas"></div>
   </div>
 
 
