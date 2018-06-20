@@ -13,7 +13,7 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Dimitra Megas</a>
+      <a id="logo-container" href="#" class="brand-logo">DM</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Paintings</a></li>
         <li><a href="#">Drawings</a></li>
@@ -25,7 +25,7 @@
         <li><a href="#">Drawings</a></li>
         <li><a href="#">Architecture</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger blue"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -34,14 +34,6 @@
       <div class="container">
         <br><br>
         <h1 class="header center blue-text text-lighten-2">Dimitra Megas</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light blue lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="assets/banner.jpg" alt="Dimitra Megas"></div>
