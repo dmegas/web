@@ -25,13 +25,12 @@
     <ul class="grid effect-6" id="grid">
       <?php
 
-      $names=array("assets/mauerpark_sketch_1.jpg");
+      $names=array("mauerpark_sketch_1");
       foreach ($names as $name) {
-        echo "<li><a href=\"".$name."\" target=\"_blank\"><img src=\"".$name."\"></a></li>";
+        echo "<li><a href=\"assets/".$name.".jpg\" target=\"_blank\"><img src=\"assets/".$name."_thumb.jpg\"></a></li>";
       }
 
        ?>
-
     </ul>
   </div>
   <script src="js/masonry.pkgd.min.js"></script>
