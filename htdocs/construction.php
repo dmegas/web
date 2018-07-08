@@ -25,7 +25,16 @@
     <ul class="grid effect-6" id="grid">
       <?php
 
-      $names=array("mauerpark_sketch_1");
+      $names=array(
+        "mauerpark_model",
+        "mauerpark_dauchbume",
+        "mauerpark_kletterpflanzen",
+        "mauerpark_kompensierungsm",
+        "mauerpark_tiere",
+        "mauerpark_sketch_1",
+        "mauerpark_sketch_2",
+        "mauerpark_sketch_3",
+        "mauerpark_sketch_4");
       foreach ($names as $name) {
         echo "<li><a href=\"assets/".$name.".jpg\" target=\"_blank\"><img src=\"assets/".$name."_thumb.jpg\"></a></li>";
       }
