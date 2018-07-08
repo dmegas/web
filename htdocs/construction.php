@@ -26,7 +26,6 @@
       <?php
 
       $names=array(
-        "inter_lab_axo",
         "inter_lab_interviews",
         "inter_lab_model_over",
         "inter_lab_model_inside",
@@ -34,6 +33,7 @@
         "inter_lab_section",
         "inter_lab_site",
         "inter_lab_sketches",
+        "inter_lab_axo",
         "mauerpark_model",
         "mauerpark_dachbume",
         "mauerpark_kletterpflanzen",
