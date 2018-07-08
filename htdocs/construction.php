@@ -27,7 +27,7 @@
 
       $names=arracy("assets/mauerpark_sketch_1.jpg");
       foreach ($names as $name) {
-        echo "<li><a href="$name" target="_blank"><img src="$name"></a></li>"
+        echo "<li><a href="$name" target="_blank"><img src="$name"></a></li>";
       }
 
        ?>
