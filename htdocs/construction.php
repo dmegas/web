@@ -25,7 +25,7 @@
     <ul class="grid effect-6" id="grid">
       <?php
 
-      $names=arracy("assets/mauerpark_sketch_1.jpg");
+      $names=array("assets/mauerpark_sketch_1.jpg");
       foreach ($names as $name) {
         echo "<li><a href=\"".$name."\" target=\"_blank\"><img src=\"".$name."\"></a></li>";
       }
