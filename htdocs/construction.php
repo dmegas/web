@@ -26,8 +26,16 @@
       <?php
 
       $names=array(
+        "inter_lab_axo",
+        "inter_lab_interviews",
+        "inter_lab_model_over",
+        "inter_lab_model_inside",
+        "inter_lab_prom",
+        "inter_lab_section",
+        "inter_lab_site",
+        "inter_lab_sketches",
         "mauerpark_model",
-        "mauerpark_dauchbume",
+        "mauerpark_dachbume",
         "mauerpark_kletterpflanzen",
         "mauerpark_kompensierungsm",
         "mauerpark_tiere",
