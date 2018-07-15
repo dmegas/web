@@ -13,7 +13,7 @@
   <div class="container">
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
-      <div style="max-width: 69em;">
+      <div style="max-width: 30em;">
       <nav class="codrops-demos" style="text-align:left; display:inline-block;">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
@@ -22,9 +22,9 @@
       </div>
     </header>
     <ul class="grid effect-2" id="grid">
-      <li style="height: 5em;"><h1>Interdisciplinary lab</h1></li>
-      <li style="height: 5em;"><p></p></li>
-      <li style="height: 5em;"><p></p></li>
+      <li style="height: 7em;"><h1>Interdisciplinary lab</h1></li>
+      <li style="height: 7em;"><p></p></li>
+      <li style="height: 7em;"><p></p></li>
       <?php
 
       function addImage($name) {
