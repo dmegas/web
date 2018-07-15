@@ -14,7 +14,7 @@
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
       <div style="max-width: 69em;">
-      <nav class="codrops-demos">
+      <nav class="codrops-demos" style="text-align:left; display:inline-block;">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
         <a href="#">Paintings</a>
