@@ -13,11 +13,13 @@
   <div class="container">
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
+      <div style="max-width:69em;">
       <nav class="codrops-demos" align="left">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
         <a href="#">Paintings</a>
       </nav>
+      </div>
     </header>
     <ul class="grid effect-2" id="grid">
       <?php
