@@ -37,7 +37,7 @@
         "inter_lab_axo");
 
       foreach ($names as $name) {
-        addImage($name)
+        addImage($name);
       }
 
       ?>
@@ -56,7 +56,7 @@
         "mauerpark_sketch_4");
 
       foreach ($names as $name) {
-        addImage($name)
+        addImage($name);
       }
 
        ?>
