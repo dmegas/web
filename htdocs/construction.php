@@ -13,7 +13,7 @@
   <div class="container">
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
-      <nav class="codrops-demos" style="text-align:left;">
+      <nav class="codrops-demos">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
         <a href="#">Paintings</a>

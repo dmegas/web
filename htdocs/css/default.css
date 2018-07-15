@@ -38,7 +38,8 @@ a:active {
 /* Header Style */
 .container > header {
 	margin: 0 auto;
-	padding: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .container > header {
@@ -115,6 +116,7 @@ a:active {
 .codrops-demos {
 	padding-top: 1em;
 	font-size: 1em;
+	text-align: left;
 }
 
 .codrops-demos a {
