@@ -22,6 +22,7 @@
       </div>
     </header>
     <ul class="grid effect-2" id="grid">
+      <li style="width:100%; height: 200px;"><p>interdisciplinary lab</p></li>
       <?php
 
       function addImage($name) {
@@ -43,6 +44,7 @@
       }
 
       ?>
+      <li style="width:100%; height: 200px;"><p>Mauer Park</p></li>
       <?php
 
       $names=array(
