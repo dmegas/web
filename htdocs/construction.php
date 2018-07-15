@@ -22,7 +22,7 @@
       </div>
     </header>
     <ul class="grid effect-2" id="grid">
-      <li style="height: 5em;"><h2>Interdisciplinary lab</h2></li>
+      <li style="height: 5em;"><h1>Interdisciplinary lab</h1></li>
       <li style="height: 5em;"><p></p></li>
       <li style="height: 5em;"><p></p></li>
       <?php
@@ -46,9 +46,7 @@
       }
 
       ?>
-      <li style="height: 6em;"><h2>Mauer Park</h2></li>
-      <li style="height: 6em;"><p></p></li>
-      <li style="height: 6em;"><p></p></li>
+      <li style="width:100%; height: 8em;"><h1>Mauer Park</h1></li>
       <?php
 
       $names=array(
