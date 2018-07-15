@@ -13,13 +13,11 @@
   <div class="container">
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
-      <div style="max-width: 30em;">
-      <nav class="codrops-demos" style="text-align:left; display:inline-block;">
+      <nav class="codrops-demos" style="text-align:left;">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
         <a href="#">Paintings</a>
       </nav>
-      </div>
     </header>
     <ul class="grid effect-2" id="grid">
       <li style="height: 7em;"><h1>Interdisciplinary lab</h1></li>
