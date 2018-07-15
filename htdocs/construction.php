@@ -42,6 +42,7 @@
 
       ?>
       <li style="width:300px; height: 300px;"><p></p></li>
+      <li style="width:300px; height: 300px;"><p></p></li>
       <?php
 
       $names=array(
