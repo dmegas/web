@@ -11,19 +11,20 @@
 </head>
 <body>
   <div class="container">
-    <div class="codrops-top clearfix">
-      <span>: Page under construction</span>
-    </div>
     <header>
       <h1>Dimitra Megas <span>Portfolio</span></h1>
-      <nav class="codrops-demos">
+      <nav class="codrops-demos" align="left">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
         <a href="#">Paintings</a>
       </nav>
     </header>
-    <ul class="grid effect-6" id="grid">
+    <ul class="grid effect-2" id="grid">
       <?php
+
+      function addImage($name) {
+        echo "<li><a href=\"assets/".$name.".jpg\" target=\"_blank\"><img src=\"assets/".$name."_thumb.jpg\"></a></li>";
+      }
 
       $names=array(
         "inter_lab_interviews",
@@ -33,7 +34,17 @@
         "inter_lab_section",
         "inter_lab_site",
         "inter_lab_sketches",
-        "inter_lab_axo",
+        "inter_lab_axo");
+
+      foreach ($names as $name) {
+        addImage($name)
+      }
+
+      ?>
+      <li style="width:300px; height: 300px;"><p></p></li>
+      <?php
+
+      $names=array(
         "mauerpark_model",
         "mauerpark_dachbume",
         "mauerpark_kletterpflanzen",
@@ -43,8 +54,9 @@
         "mauerpark_sketch_2",
         "mauerpark_sketch_3",
         "mauerpark_sketch_4");
+
       foreach ($names as $name) {
-        echo "<li><a href=\"assets/".$name.".jpg\" target=\"_blank\"><img src=\"assets/".$name."_thumb.jpg\"></a></li>";
+        addImage($name)
       }
 
        ?>

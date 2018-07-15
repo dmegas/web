@@ -20,7 +20,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	color: #6b7381;
 	background: #f2f2f2;
 }
@@ -114,14 +114,13 @@ a:active {
 /* Demo Buttons Style */
 .codrops-demos {
 	padding-top: 1em;
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
 .codrops-demos a {
 	display: inline-block;
 	margin: 0.5em;
 	padding: 0.7em 1.1em;
-	border: 3px solid #6b7381;
 	color: #6b7381;
 	font-weight: 700;
 }

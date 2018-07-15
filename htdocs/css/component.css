@@ -1,5 +1,5 @@
 .grid {
-	max-width: 80em;
+	max-width: 69em;
 	list-style: none;
 	margin: 30px auto;
 	padding: 0;
@@ -211,18 +211,12 @@
 }
 
 @media screen and (max-width: 900px) {
-	.grid {
-		max-width: 69em;
-	}
 	.grid li {
 		width: 33%;
 	}
 }
 
 @media screen and (max-width: 400px) {
-	.grid {
-		max-width: 69em;
-	}
 	.grid li {
 		width: 50%;
 	}
