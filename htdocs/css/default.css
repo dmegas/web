@@ -39,6 +39,7 @@ a:active {
 .container > header {
 	margin: 0 auto;
 	padding: 2em;
+	max-width: 69em;
 }
 
 .container > header {
