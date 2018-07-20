@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container">
-    <header>
+    <header align="left">
       <h1>Dimitra Megas <span>Portfolio</span></h1>
       <nav class="codrops-demos">
         <a class="current-demo" href="#">Architecture</a>
