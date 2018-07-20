@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Dimitra Megas</title>
+  <title>Dimitra Megas - Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <script src="js/modernizr.custom.js"></script>
@@ -11,7 +11,8 @@
 <body>
   <div class="container">
     <header align="left">
-      <h1>Dimitra Megas <span>Portfolio</span></h1>
+      <h1>Dimitra Megas</h1>
+      <h1>Portfolio</h1>
       <nav class="codrops-demos">
         <a class="current-demo" href="#">Architecture</a>
         <a href="#">Drawings</a>
@@ -19,9 +20,9 @@
       </nav>
     </header>
     <ul class="grid effect-2" id="grid">
-      <li style="height: 7em;"><h1>Interdisciplinary lab</h1></li>
-      <li style="height: 7em;"><p></p></li>
-      <li style="height: 7em;"><p></p></li>
+      <li style="height: 3em;"><h1>Interdisciplinary lab</h1></li>
+      <li style="height: 3em;"><p></p></li>
+      <li style="height: 3em;"><p></p></li>
       <?php
 
       function addImage($name) {
@@ -43,7 +44,7 @@
       }
 
       ?>
-      <li style="width:100%; height: 8em;"><h1>Mauer Park</h1></li>
+      <li style="width:100%; height: 3em;"><h1>Mauer Park</h1></li>
       <?php
 
       $names=array(
