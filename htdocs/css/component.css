@@ -24,9 +24,6 @@
 	outline: none;
 	display: block;
 	max-width: 100%;
-	border-style: solid;
-	border-width: 0.5px;
-	border-color: #eee;
 }
 
 .grid li h1 {

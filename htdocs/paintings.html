@@ -1,101 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Dimitra Megas: Paintings</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>Dimitra Megas - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <div id="logo-container" href="#" class="brand-logo">Paintings</div>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="/"><i class="material-icons black-text">home</i></a></li>
-        <li><a href="drawings.html"><i class="material-icons black-text">image</i></a></li>
-        <li><a href="architecture.html"><i class="material-icons black-text">domain</i></a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="/"><i class="material-icons black-text">home</i> Home</a></li>
-        <li><a href="drawings.html"><i class="material-icons black-text">image</i> Drawings</a></li>
-        <li><a href="architecture.html"><i class="material-icons black-text">domain</i> Architecture</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div class="parallax-container">
-    <div class="carousel carousel-slider center">
-      <div class="carousel-item black" href="#television">
-        <a href="assets/television.jpg" target="_blank">
-          <img src="assets/television.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-      <div class="carousel-item black" href="#rose">
-        <a href="assets/rose.jpg" target="_blank">
-          <img src="assets/rose.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-      <div class="carousel-item black" href="#diamonds">
-        <a href="assets/diamonds.jpg" target="_blank">
-          <img src="assets/diamonds.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-      <div class="carousel-item black" href="#bricks">
-        <a href="assets/bricks.jpg" target="_blank">
-          <img src="assets/bricks.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-      <div class="carousel-item black" href="#church">
-        <a href="assets/church.jpg" target="_blank">
-          <img src="assets/church.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-      <div class="carousel-item black" href="#bondage">
-        <a href="assets/bondage.jpg" target="_blank">
-          <img src="assets/bondage.jpg" style="repeat: none; height:450px; width:auto;" />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="parallax black">
-    <br></br>
-    <br></br>
-  </div>
-
-  <footer class="page-footer blue">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <i class="material-icons">comment</i>
-        </div>
-        <div class="col">
-          <h5 class="white-text">Contact</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <a class="white-text" href="mailto:info@dimitramegas.com" target="_top">info@dimitramegas.com</a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      From Berlin with love
-      </div>
-    </div>
-  </footer>
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/gallery.js"></script>
-
-  </body>
+  <div class="container">
+    <header align="left">
+      <h1>dimitra megas</h1>
+      <h1>portfolio</h1>
+      <nav class="codrops-demos">
+        <a href="construction.html">architecture</a>
+        <a href="drawings.html">drawings</a>
+        <a href="paintings.html">paintings</a>
+        <a href="cv.html">cv</a>
+<ul class="grid effect-2" id="grid">
+<li><a href="assets/painting-bird.jpg"target="_blank"><img src="assets/painting-bird_thumb.jpg"></a><li>
+<li><a href="assets/painting-church.jpg"target="_blank"><img src="assets/painting-church_thumb.jpg"></a><li>
+<li><a href="assets/painting-diamonds.jpg"target="_blank"><img src="assets/painting-diamonds_thumb.jpg"></a><li>
+<li><a href="assets/painting-fish.jpg"target="_blank"><img src="assets/painting-fish_thumb.jpg"></a><li>
+<li><a href="assets/painting-pinseln.jpg"target="_blank"><img src="assets/painting-pinseln_thumb.jpg"></a><li>
+<li><a href="assets/painting-rose.jpg"target="_blank"><img src="assets/painting-rose_thumb.jpg"></a><li>
+<li><a href="assets/painting-television.jpg"target="_blank"><img src="assets/painting-television_thumb.jpg"></a><li>
+</ul>
+</div>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/AnimOnScroll.js"></script>
+<script>
+new AnimOnScroll( document.getElementById( 'grid' ), {
+minDuration : 0.4,
+maxDuration : 0.7,
+viewportFactor : 0.2
+} );
+</script>
+</body>
 </html>
